@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Golf Equipment</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="code.js"></script>
+  <link rel="stylesheet" href="golf.css">
+
+</head>
+
+<body>
+
+<!--Bootstrap-->
+
+<table class="table">
+  <caption>Golf Equipment</caption>
+  <thead>
+    <tr>
+      <th scope="col">Qty</th>
+      <th scope="col">Product</th>
+      <th scope="col">Price</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><input id="textBoxOne" type="number" data-price="12.99" name="equip" min="0"></th>
+      <td><label for="textBoxOne">Titleist Glove</label></td>
+      <td>$12.99</td>
+      <td>
+        <p id="outputOne"></p>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><input id="textBoxTwo" type="number" data-price="44.98" name="equip" min="0"></th>
+      <td><label for="textBoxTwo">Titleist Prior Generation Pro V1 Golf Balls</label></td>
+      <td>$44.98</td>
+      <td>
+        <p id="outputTwo"></p>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><input id="textBoxThree" type="number" data-price="149.95" name="equip" min="0"></th>
+      <td><label for="textBoxThree">Ping Putter</label></td>
+      <td>$149.95</td>
+      <td>
+        <p id="outputThree"></p>
+      </td>
+    </tr>
+
+  <tr>
+    <td colspan="8" class="finalAmt">Grand Total</td>
+    <td>
+      <p id="grandTotal"></p>
+    </td>
+
+  </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

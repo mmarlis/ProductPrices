@@ -1,0 +1,23 @@
+table caption
+{
+    color: teal;
+    font-weight: bold;
+    font-size:200%;
+    font-family: Dubai;
+    padding: 20px;
+
+}
+
+#textBoxOne,#textBoxTwo,#textBoxThree{
+    width: 40%;
+    padding: 5%;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+td label{
+    width: 50%;
+}
+
+
